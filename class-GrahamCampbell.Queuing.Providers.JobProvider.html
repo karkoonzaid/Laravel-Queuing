@@ -1,0 +1,2367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class GrahamCampbell\Queuing\Providers\JobProvider</title>
+
+	<script type="text/javascript" src="resources/combined.js?2730701230"></script>
+	<script type="text/javascript" src="elementlist.js?1856152145"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Overview</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-GrahamCampbell.Queuing.Providers.html" title="Summary of GrahamCampbell\Queuing\Providers"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-GrahamCampbell.html">GrahamCampbell<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-GrahamCampbell.Queuing.html">Queuing<span></span></a>
+						<ul>
+				<li><a href="namespace-GrahamCampbell.Queuing.Classes.html">Classes</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Commands.html">Commands</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Facades.html">Facades</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Handlers.html">Handlers</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Models.html">Models</a>
+						</li>
+				<li class="active"><a href="namespace-GrahamCampbell.Queuing.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Subscribers.html">Subscribers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-GrahamCampbell.Queuing.Providers.JobProvider.html">JobProvider</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class JobProvider</h1>
+
+
+	<div class="description">
+	
+<p>This is the job provider class.</p>
+
+	</div>
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+GrahamCampbell\Core\Providers\AbstractProvider
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>GrahamCampbell\Queuing\Providers\JobProvider</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-GrahamCampbell.html">GrahamCampbell</a>\<a href="namespace-GrahamCampbell.Queuing.html">Queuing</a>\<a href="namespace-GrahamCampbell.Queuing.Providers.html">Providers</a><br />
+		<b>Package:</b> Laravel-Queuing<br />
+
+				<b>Copyright:</b>
+				Copyright 2013-2014 Graham Campbell<br />
+				<b>License:</b>
+				<a href="https://github.com/GrahamCampbell/Laravel-Queuing/blob/master/LICENSE.md">https://github.com/GrahamCampbell/Laravel-Queuing/blob/master/LICENSE.md</a><br />
+				<b>Author:</b>
+				Graham Campbell<br />
+				<b>Link:</b>
+				<a href="https://github.com/GrahamCampbell/Laravel-Queuing">https://github.com/GrahamCampbell/Laravel-Queuing</a><br />
+		<b>Located at</b> <a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#24-702" title="Go to source code">Providers/JobProvider.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#42-54" title="Go to source code">__construct</a>( <span>Illuminate\Database\Eloquent\Model <var>$model</var></span>, <span>Illuminate\Validation\Factory <var>$validator</var></span>, <span>Illuminate\Config\Repository <var>$config</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Create a new instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Create a new instance.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$model</var></dt>
+						<dd><code>Illuminate\Database\Eloquent\Model</code><br>$model</dd>
+						<dt><var>$validator</var></dt>
+						<dd><code>Illuminate\Validation\Factory</code><br>$validator</dd>
+						<dt><var>$config</var></dt>
+						<dd><code>Illuminate\Config\Repository</code><br>$config</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="queue" id="_queue">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_queue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#56-69" title="Go to source code">queue</a>( <span>string <var>$type</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Get the queue to use.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the queue to use.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd><code>string</code><br>$type</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="task" id="_task">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_task">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#71-80" title="Go to source code">task</a>( <span>string <var>$type</var></span>, <span>mixed <var>$location</var> = <span class="php-quote">'GrahamCampbell\Queuing\Handlers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Get the task to use.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the task to use.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd><code>string</code><br>$type</dd>
+						<dt><var>$location</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getTask" id="_getTask">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#82-94" title="Go to source code">getTask</a>( <span>string <var>$task</var></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span>, <span>mixed <var>$location</var> = <span class="php-quote">'GrahamCampbell\Queuing\Handlers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Get all jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+						<dt><var>$location</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getDeletedTask" id="_getDeletedTask">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getDeletedTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#97-109" title="Go to source code">getDeletedTask</a>( <span>string <var>$task</var></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span>, <span>mixed <var>$location</var> = <span class="php-quote">'GrahamCampbell\Queuing\Handlers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Get all deleted jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all deleted jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+						<dt><var>$location</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearTask" id="_clearTask">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#111-124" title="Go to source code">clearTask</a>( <span>string <var>$task</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearDeletedTask" id="_clearDeletedTask">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearDeletedTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#126-139" title="Go to source code">clearDeletedTask</a>( <span>string <var>$task</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all deleted jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all deleted jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldTask" id="_getOldTask">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#141-156" title="Go to source code">getOldTask</a>( <span>string <var>$task</var></span>, <span>integer <var>$age</var> = <span class="php-num">68400</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span>, <span>mixed <var>$location</var> = <span class="php-quote">'GrahamCampbell\Queuing\Handlers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+						<dt><var>$location</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldDeletedTask" id="_getOldDeletedTask">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldDeletedTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#158-173" title="Go to source code">getOldDeletedTask</a>( <span>string <var>$task</var></span>, <span>integer <var>$age</var> = <span class="php-num">478800</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span>, <span>mixed <var>$location</var> = <span class="php-quote">'GrahamCampbell\Queuing\Handlers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old deleted jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old deleted jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+						<dt><var>$location</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldTask" id="_clearOldTask">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#175-189" title="Go to source code">clearOldTask</a>( <span>string <var>$task</var></span>, <span>integer <var>$age</var> = <span class="php-num">68400</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldDeletedTask" id="_clearOldDeletedTask">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldDeletedTask">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#191-205" title="Go to source code">clearOldDeletedTask</a>( <span>string <var>$task</var></span>, <span>integer <var>$age</var> = <span class="php-num">478800</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old deleted jobs of the specified task.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old deleted jobs of the specified task.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getQueue" id="_getQueue">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#207-219" title="Go to source code">getQueue</a>( <span>string <var>$queue</var></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getDeletedQueue" id="_getDeletedQueue">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getDeletedQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#221-233" title="Go to source code">getDeletedQueue</a>( <span>string <var>$queue</var></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all deleted jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all deleted jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearQueue" id="_clearQueue">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#235-248" title="Go to source code">clearQueue</a>( <span>string <var>$queue</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearDeletedQueue" id="_clearDeletedQueue">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearDeletedQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#250-263" title="Go to source code">clearDeletedQueue</a>( <span>string <var>$queue</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all deleted jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all deleted jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldQueue" id="_getOldQueue">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#265-280" title="Go to source code">getOldQueue</a>( <span>string <var>$queue</var></span>, <span>integer <var>$age</var> = <span class="php-num">68400</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldDeletedQueue" id="_getOldDeletedQueue">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldDeletedQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#282-297" title="Go to source code">getOldDeletedQueue</a>( <span>string <var>$queue</var></span>, <span>integer <var>$age</var> = <span class="php-num">478800</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old deleted jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old deleted jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldQueue" id="_clearOldQueue">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#299-313" title="Go to source code">clearOldQueue</a>( <span>string <var>$queue</var></span>, <span>integer <var>$age</var> = <span class="php-num">68400</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldDeletedQueue" id="_clearOldDeletedQueue">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldDeletedQueue">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#315-329" title="Go to source code">clearOldDeletedQueue</a>( <span>string <var>$queue</var></span>, <span>integer <var>$age</var> = <span class="php-num">478800</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all deleted jobs in the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all deleted jobs in the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getCron" id="_getCron">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#331-340" title="Go to source code">getCron</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all cron jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getDeletedCron" id="_getDeletedCron">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getDeletedCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#342-351" title="Go to source code">getDeletedCron</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all deleted cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all deleted cron jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearCron" id="_clearCron">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#353-361" title="Go to source code">clearCron</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all cron jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearDeletedCron" id="_clearDeletedCron">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearDeletedCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#363-371" title="Go to source code">clearDeletedCron</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all deleted cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all deleted cron jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldCron" id="_getOldCron">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#373-383" title="Go to source code">getOldCron</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old cron jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldDeletedCron" id="_getOldDeletedCron">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldDeletedCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#385-395" title="Go to source code">getOldDeletedCron</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old deleted cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old deleted cron jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldCron" id="_clearOldCron">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#397-406" title="Go to source code">clearOldCron</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old cron jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldDeletedCron" id="_clearOldDeletedCron">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldDeletedCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#408-417" title="Go to source code">clearOldDeletedCron</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old deleted cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old deleted cron jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getMail" id="_getMail">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#419-428" title="Go to source code">getMail</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all mail jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getDeletedMail" id="_getDeletedMail">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getDeletedMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#430-439" title="Go to source code">getDeletedMail</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all deleted mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all deleted mail jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearMail" id="_clearMail">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#441-449" title="Go to source code">clearMail</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all mail jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearDeletedMail" id="_clearDeletedMail">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearDeletedMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#451-459" title="Go to source code">clearDeletedMail</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all deleted mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all deleted mail jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldMail" id="_getOldMail">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#461-471" title="Go to source code">getOldMail</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old mail jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldDeletedMail" id="_getOldDeletedMail">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldDeletedMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#473-483" title="Go to source code">getOldDeletedMail</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old deleted mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old deleted mail jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldMail" id="_clearOldMail">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#485-494" title="Go to source code">clearOldMail</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old mail jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldDeletedMail" id="_clearOldDeletedMail">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldDeletedMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#496-505" title="Go to source code">clearOldDeletedMail</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old deleted mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old deleted mail jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getJobs" id="_getJobs">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#507-516" title="Go to source code">getJobs</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all other jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all other jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getDeletedJobs" id="_getDeletedJobs">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getDeletedJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#518-527" title="Go to source code">getDeletedJobs</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all other deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all other deleted jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearJobs" id="_clearJobs">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#529-537" title="Go to source code">clearJobs</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all other jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all other jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearDeletedJobs" id="_clearDeletedJobs">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearDeletedJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#539-547" title="Go to source code">clearDeletedJobs</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all other deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all other deleted jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldJobs" id="_getOldJobs">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#549-559" title="Go to source code">getOldJobs</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all other old jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all other old jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getOldDeletedJobs" id="_getOldDeletedJobs">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getOldDeletedJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#561-571" title="Go to source code">getOldDeletedJobs</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all other old deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all other old deleted jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldJobs" id="_clearOldJobs">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#573-582" title="Go to source code">clearOldJobs</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all other old jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all other old jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearOldDeletedJobs" id="_clearOldDeletedJobs">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearOldDeletedJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#584-593" title="Go to source code">clearOldDeletedJobs</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all other old deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all other old deleted jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getAll" id="_getAll">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAll">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#595-605" title="Go to source code">getAll</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getAllDeleted" id="_getAllDeleted">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAllDeleted">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#607-617" title="Go to source code">getAllDeleted</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all deleted jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearAll" id="_clearAll">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearAll">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#619-631" title="Go to source code">clearAll</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearAllDeleted" id="_clearAllDeleted">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearAllDeleted">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#633-645" title="Go to source code">clearAllDeleted</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all deleted jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getAllOld" id="_getAllOld">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAllOld">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#647-658" title="Go to source code">getAllOld</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getAllOldDeleted" id="_getAllOldDeleted">
+
+			<td class="attributes"><code>
+				 public 
+				Illuminate\Database\Eloquent\Collection
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAllOldDeleted">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#660-671" title="Go to source code">getAllOldDeleted</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+			<div class="description short">
+				
+<p>Get all old deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all old deleted jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+						<dt><var>$columns</var></dt>
+						<dd><code>array</code><br>$columns</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>Illuminate\Database\Eloquent\Collection</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearAllOld" id="_clearAllOld">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearAllOld">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#673-686" title="Go to source code">clearAllOld</a>( <span>integer <var>$age</var> = <span class="php-num">68400</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearAllOldDeleted" id="_clearAllOldDeleted">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearAllOldDeleted">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#688-701" title="Go to source code">clearAllOldDeleted</a>( <span>integer <var>$age</var> = <span class="php-num">478800</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear all old deleted jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all old deleted jobs.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$age</var></dt>
+						<dd><code>integer</code><br>$age</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="config" id="$config">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Providers.JobProvider.html#35-40" title="Go to source code"><var>$config</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$config" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The config instance.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The config instance.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

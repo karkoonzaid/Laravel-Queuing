@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class GrahamCampbell\Queuing\Classes\Queuing</title>
+
+	<script type="text/javascript" src="resources/combined.js?2730701230"></script>
+	<script type="text/javascript" src="elementlist.js?1856152145"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Overview</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-GrahamCampbell.Queuing.Classes.html" title="Summary of GrahamCampbell\Queuing\Classes"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-GrahamCampbell.html">GrahamCampbell<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-GrahamCampbell.Queuing.html">Queuing<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-GrahamCampbell.Queuing.Classes.html">Classes</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Commands.html">Commands</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Facades.html">Facades</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Handlers.html">Handlers</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Models.html">Models</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Subscribers.html">Subscribers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-GrahamCampbell.Queuing.Classes.Cron.html">Cron</a></li>
+				<li><a href="class-GrahamCampbell.Queuing.Classes.Job.html">Job</a></li>
+				<li class="active"><a href="class-GrahamCampbell.Queuing.Classes.Queuing.html">Queuing</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Queuing</h1>
+
+
+	<div class="description">
+	
+<p>This is the queuing class.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-GrahamCampbell.html">GrahamCampbell</a>\<a href="namespace-GrahamCampbell.Queuing.html">Queuing</a>\<a href="namespace-GrahamCampbell.Queuing.Classes.html">Classes</a><br />
+		<b>Package:</b> Laravel-Queuing<br />
+
+				<b>Copyright:</b>
+				Copyright 2013-2014 Graham Campbell<br />
+				<b>License:</b>
+				<a href="https://github.com/GrahamCampbell/Laravel-Queuing/blob/master/LICENSE.md">https://github.com/GrahamCampbell/Laravel-Queuing/blob/master/LICENSE.md</a><br />
+				<b>Author:</b>
+				Graham Campbell<br />
+				<b>Link:</b>
+				<a href="https://github.com/GrahamCampbell/Laravel-Queuing">https://github.com/GrahamCampbell/Laravel-Queuing</a><br />
+		<b>Located at</b> <a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#22-282" title="Go to source code">Classes/Queuing.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#61-74" title="Go to source code">__construct</a>( <span>Illuminate\Queue\QueueManager <var>$queue</var></span>, <span><code><a href="class-GrahamCampbell.Queuing.Providers.JobProvider.html">GrahamCampbell\Queuing\Providers\JobProvider</a></code> <var>$jobprovider</var></span>, <span>string <var>$driver</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Create a new instance.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Create a new instance.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$queue</var></dt>
+						<dd><code>Illuminate\Queue\QueueManager</code><br>$queue</dd>
+						<dt><var>$jobprovider</var></dt>
+						<dd><code><code><a href="class-GrahamCampbell.Queuing.Providers.JobProvider.html">GrahamCampbell\Queuing\Providers\JobProvider</a></code></code><br>$jobprovider</dd>
+						<dt><var>$driver</var></dt>
+						<dd><code>string</code><br>$driver</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="work" id="_work">
+
+			<td class="attributes"><code>
+				 protected 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_work">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#76-96" title="Go to source code">work</a>( <span>mixed <var>$delay</var></span>, <span>string <var>$task</var></span>, <span>array <var>$data</var></span>, <span>string <var>$queue</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Queue the job to memory.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Queue the job to memory.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$delay</var></dt>
+						<dd><code>mixed</code><br>$delay</dd>
+						<dt><var>$task</var></dt>
+						<dd><code>string</code><br>$task</dd>
+						<dt><var>$data</var></dt>
+						<dd><code>array</code><br>$data</dd>
+						<dt><var>$queue</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="process" id="_process">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_process">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#98-111" title="Go to source code">process</a>( )</code>
+
+			<div class="description short">
+				
+<p>Do the actual job queuing. This method is called on application shutdown.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Do the actual job queuing. This method is called on application shutdown.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="laterCron" id="_laterCron">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_laterCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#113-123" title="Go to source code">laterCron</a>( <span>mixed <var>$delay</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				
+<p>Push a new delayed cron job onto the queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Push a new delayed cron job onto the queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$delay</var></dt>
+						<dd><code>mixed</code><br>$delay</dd>
+						<dt><var>$data</var></dt>
+						<dd><code>array</code><br>$data</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="pushCron" id="_pushCron">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_pushCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#125-134" title="Go to source code">pushCron</a>( <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				
+<p>Push a new cron job onto the queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Push a new cron job onto the queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$data</var></dt>
+						<dd><code>array</code><br>$data</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="laterMail" id="_laterMail">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_laterMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#136-146" title="Go to source code">laterMail</a>( <span>mixed <var>$delay</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				
+<p>Push a new delayed mail job onto the queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Push a new delayed mail job onto the queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$delay</var></dt>
+						<dd><code>mixed</code><br>$delay</dd>
+						<dt><var>$data</var></dt>
+						<dd><code>array</code><br>$data</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="pushMail" id="_pushMail">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_pushMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#148-157" title="Go to source code">pushMail</a>( <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				
+<p>Push a new mail job onto the queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Push a new mail job onto the queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$data</var></dt>
+						<dd><code>array</code><br>$data</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="laterJob" id="_laterJob">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_laterJob">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#159-171" title="Go to source code">laterJob</a>( <span>mixed <var>$delay</var></span>, <span>string <var>$job</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$location</var> = <span class="php-quote">'GrahamCampbell\Queuing\Handlers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Push a new delayed job onto the queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Push a new delayed job onto the queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$delay</var></dt>
+						<dd><code>mixed</code><br>$delay</dd>
+						<dt><var>$job</var></dt>
+						<dd><code>string</code><br>$job</dd>
+						<dt><var>$data</var></dt>
+						<dd><code>string</code><br>$queue</dd>
+						<dt><var>$location</var></dt>
+						<dd><code>string</code><br>$location</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="pushJob" id="_pushJob">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_pushJob">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#173-183" title="Go to source code">pushJob</a>( <span>string <var>$job</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$location</var> = <span class="php-quote">'GrahamCampbell\Queuing\Handlers'</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Push a new job onto the queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Push a new job onto the queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$job</var></dt>
+						<dd><code>string</code><br>$job</dd>
+						<dt><var>$data</var></dt>
+						<dd><code>array</code><br>$data</dd>
+						<dt><var>$location</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clear" id="_clear">
+
+			<td class="attributes"><code>
+				 protected 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clear">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#185-227" title="Go to source code">clear</a>( <span>string <var>$type</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Clear the specified queue.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear the specified queue.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd><code>string</code><br>$type</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearCron" id="_clearCron">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearCron">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#229-237" title="Go to source code">clearCron</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all cron jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all cron jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearMail" id="_clearMail">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearMail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#239-247" title="Go to source code">clearMail</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all mail jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all mail jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearJobs" id="_clearJobs">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearJobs">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#249-257" title="Go to source code">clearJobs</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all other jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all other jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clearAll" id="_clearAll">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clearAll">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#259-271" title="Go to source code">clearAll</a>( )</code>
+
+			<div class="description short">
+				
+<p>Clear all jobs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clear all jobs.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>$this<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="length" id="_length">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_length">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#273-281" title="Go to source code">length</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the queue length.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the queue length.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="jobs" id="$jobs">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#33-38" title="Go to source code"><var>$jobs</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$jobs" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The jobs to get pushed.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The jobs to get pushed.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="queue" id="$queue">
+			<td class="attributes"><code>
+				protected  
+				Illuminate\Queue\QueueManager
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#40-45" title="Go to source code"><var>$queue</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$queue" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The queue instance.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The queue instance.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="jobprovider" id="$jobprovider">
+			<td class="attributes"><code>
+				protected  
+				<code><a href="class-GrahamCampbell.Queuing.Providers.JobProvider.html">GrahamCampbell\Queuing\Providers\JobProvider</a></code>
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#47-52" title="Go to source code"><var>$jobprovider</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$jobprovider" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The jobprovider instance.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The jobprovider instance.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="driver" id="$driver">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Classes.Queuing.html#54-59" title="Go to source code"><var>$driver</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$driver" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The queue driver.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The queue driver.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

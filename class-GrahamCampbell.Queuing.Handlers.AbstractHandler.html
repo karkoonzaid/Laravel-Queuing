@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class GrahamCampbell\Queuing\Handlers\AbstractHandler</title>
+
+	<script type="text/javascript" src="resources/combined.js?2730701230"></script>
+	<script type="text/javascript" src="elementlist.js?1856152145"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Overview</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-GrahamCampbell.Queuing.Handlers.html" title="Summary of GrahamCampbell\Queuing\Handlers"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-GrahamCampbell.html">GrahamCampbell<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-GrahamCampbell.Queuing.html">Queuing<span></span></a>
+						<ul>
+				<li><a href="namespace-GrahamCampbell.Queuing.Classes.html">Classes</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Commands.html">Commands</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Facades.html">Facades</a>
+						</li>
+				<li class="active"><a href="namespace-GrahamCampbell.Queuing.Handlers.html">Handlers</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Models.html">Models</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Providers.html">Providers</a>
+						</li>
+				<li><a href="namespace-GrahamCampbell.Queuing.Subscribers.html">Subscribers</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html">AbstractHandler</a></li>
+				<li><a href="class-GrahamCampbell.Queuing.Handlers.CronHandler.html">CronHandler</a></li>
+				<li><a href="class-GrahamCampbell.Queuing.Handlers.MailHandler.html">MailHandler</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class AbstractHandler</h1>
+
+
+	<div class="description">
+	
+<p>This is the abstract handler class.</p>
+
+	</div>
+
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-GrahamCampbell.Queuing.Handlers.CronHandler.html">GrahamCampbell\Queuing\Handlers\CronHandler</a></code>, 
+			<code><a href="class-GrahamCampbell.Queuing.Handlers.MailHandler.html">GrahamCampbell\Queuing\Handlers\MailHandler</a></code>
+		</p>
+	</div>
+
+
+
+
+
+
+	<div class="alert alert-info">
+		<b>Abstract</b><br />
+		
+		<b>Namespace:</b> <a href="namespace-GrahamCampbell.html">GrahamCampbell</a>\<a href="namespace-GrahamCampbell.Queuing.html">Queuing</a>\<a href="namespace-GrahamCampbell.Queuing.Handlers.html">Handlers</a><br />
+		<b>Package:</b> Laravel-Queuing<br />
+
+				<b>Copyright:</b>
+				Copyright 2013-2014 Graham Campbell<br />
+				<b>License:</b>
+				<a href="https://github.com/GrahamCampbell/Laravel-Queuing/blob/master/LICENSE.md">https://github.com/GrahamCampbell/Laravel-Queuing/blob/master/LICENSE.md</a><br />
+				<b>Author:</b>
+				Graham Campbell<br />
+				<b>Link:</b>
+				<a href="https://github.com/GrahamCampbell/Laravel-Queuing">https://github.com/GrahamCampbell/Laravel-Queuing</a><br />
+		<b>Located at</b> <a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#22-365" title="Go to source code">Handlers/AbstractHandler.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#89-97" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+<p>Constructor. Runs the init method.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Constructor. Runs the init method.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="fire" id="_fire">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_fire">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#99-178" title="Go to source code">fire</a>( <span>mixed <var>$job</var></span>, <span>mixed <var>$data</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Fire method (called by Laravel).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Fire method (called by Laravel).</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="success" id="_success">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_success">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#180-214" title="Go to source code">success</a>( )</code>
+
+			<div class="description short">
+				
+<p>Success method (called on success).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Success method (called on success).</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="fail" id="_fail">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_fail">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#216-258" title="Go to source code">fail</a>( <span>mixed <var>$exception</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Failure method (called on failure).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Failure method (called on failure).</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="abort" id="_abort">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_abort">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#260-307" title="Go to source code">abort</a>( <span>mixed <var>$message</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Abortion method (called on abortion).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Abortion method (called on abortion).</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="init" id="_init">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_init">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#309-317" title="Go to source code">init</a>( )</code>
+
+			<div class="description short">
+				
+<p>Initialisation for the job.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Initialisation for the job.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="before" id="_before">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_before">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#319-327" title="Go to source code">before</a>( )</code>
+
+			<div class="description short">
+				
+<p>Run on construction.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Run on construction.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="afterSuccess" id="_afterSuccess">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_afterSuccess">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#329-337" title="Go to source code">afterSuccess</a>( )</code>
+
+			<div class="description short">
+				
+<p>Run after a job success.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Run after a job success.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="afterFailure" id="_afterFailure">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_afterFailure">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#339-347" title="Go to source code">afterFailure</a>( )</code>
+
+			<div class="description short">
+				
+<p>Run after a job failure.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Run after a job failure.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="afterAbortion" id="_afterAbortion">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_afterAbortion">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#349-357" title="Go to source code">afterAbortion</a>( )</code>
+
+			<div class="description short">
+				
+<p>Run after a job abortion.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Run after a job abortion.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="run" id="_run">
+
+			<td class="attributes"><code>
+				abstract protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_run">#</a>
+			<code><a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#359-364" title="Go to source code">run</a>( )</code>
+
+			<div class="description short">
+				
+<p>Run the job.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Run the job.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="maxtries" id="$maxtries">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#33-38" title="Go to source code"><var>$maxtries</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$maxtries" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The maximum number of tries.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The maximum number of tries.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="tries" id="$tries">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#40-45" title="Go to source code"><var>$tries</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$tries" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The current number of tries.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The current number of tries.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="id" id="$id">
+			<td class="attributes"><code>
+				protected  
+				integer
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#47-52" title="Go to source code"><var>$id</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$id" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The job id.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The job id.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="task" id="$task">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#54-59" title="Go to source code"><var>$task</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$task" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The job task.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The job task.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="method" id="$method">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#61-66" title="Go to source code"><var>$method</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$method" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The job method.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The job method.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="model" id="$model">
+			<td class="attributes"><code>
+				protected  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#68-73" title="Go to source code"><var>$model</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$model" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The job model.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The job model.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="job" id="$job">
+			<td class="attributes"><code>
+				protected  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#75-80" title="Go to source code"><var>$job</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$job" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The handler job.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The handler job.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="data" id="$data">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-GrahamCampbell.Queuing.Handlers.AbstractHandler.html#82-87" title="Go to source code"><var>$data</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="#$data" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The handler data.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The handler data.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>
